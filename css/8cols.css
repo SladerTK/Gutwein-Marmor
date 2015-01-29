@@ -1,0 +1,64 @@
+/*  GRID mit 8 */
+
+	
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+	width: 87.125%; 
+}
+
+.span_6_of_8 {
+	width: 74.25%; 
+}
+
+.span_5_of_8 {
+	width: 61.375%; 
+}
+
+.span_4_of_8 {
+	width: 48.5%; 
+}
+
+.span_3_of_8 {
+	width: 35.625%;
+}
+
+.span_2_of_8 {
+	width: 22.75%; 
+}
+
+.span_1_of_8 {
+	width: 9.875%; 
+}
+
+
+/*  Volle WIDTH bei weniger als 800 px */
+
+@media only screen and (max-width: 800px) {
+	.span_8_of_8 {
+		width: 100%; 
+	}
+	.span_7_of_8 {
+		width: 100%; 
+	}
+	.span_6_of_8 {
+		width: 100%; 
+	}
+	.span_5_of_8 {
+		width: 100%; 
+	}
+	.span_4_of_8 {
+		width: 100%; 
+	}
+	.span_3_of_8 {
+		width: 100%; 
+	}
+	.span_2_of_8 {
+		width: 100%; 
+	}
+	.span_1_of_8 {
+		width: 100%; 
+	}
+}

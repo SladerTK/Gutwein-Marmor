@@ -1,0 +1,332 @@
+/*Main Css*/
+body{
+font-family: 'Open Sans Condensed','Arial Narrow',sans-serif;
+font-size: 100%;
+margin : 0 auto;
+padding : 0;
+color : rgba(58,62,65,1); 
+text-align: left;
+}
+
+img{
+max-width:100%;
+min-width:100%;
+height:auto;
+}
+
+.banner,
+.mobilbanner{
+background-color:#FFF;
+}
+.bannerbild,
+.slideshow{
+max-width:98.5%;
+min-width:98.5%;
+height:auto;
+margin: 0.75% 0.75% 0.75% 0.75%;
+}
+.logo{
+border: 0px;
+}
+
+.Inhalt{
+padding: 5% 5% 0 5%;
+background-color: #FFF;
+min-height:100%;
+}
+
+.UeberschriftH2{
+font-weight: normal;
+margin:0;
+padding:0 0 5% 0;
+}
+.UeberschriftH3{
+font-weight: normal;
+margin:0;
+padding:0 0 2% 0;
+}
+.UeberschriftH4{
+font-weight: normal;
+margin:0;
+padding:0 0 2% 0;
+}
+
+.kontaktH3{
+margin:2% 0 2% 0;
+padding:2.5% 0 0% 0;
+}
+
+#inhaltfloat{
+margin: 0 0 0 5%;
+width: 46.5%;
+}
+
+.product{
+display:inline;
+}
+.list{
+border-top: 3px solid #FFF;
+border-bottom: 3px solid #FFF;
+display:block;
+}
+
+.vertikalesmenue h2{
+font-family: 'Open Sans Condensed','Arial Narrow',sans-serif;
+font-size: 17pt;
+font-weight: normal;
+background-color: rgba(58,62,65,.65);
+line-height: 160%;
+text-align: center;
+text-transform: uppercase;
+padding: 10% 0% 10% 0%;
+margin: 5% 0% 5% 0%;
+}
+.vertikalesmenue a{
+text-decoration: none;
+color: #fff;
+display: inline-block;
+width: 100%;
+}
+.vertikalesmenue a:hover{
+background-color: rgba(255,255,255,.55);
+color: rgba(58,62,65,1);
+}
+
+.fusszeile{
+font-family: 'Open Sans Condensed','Arial Narrow',sans-serif;
+font-weight: normal;
+background-color: rgba(58,62,65,1);
+line-height: 160%;
+text-align: center;
+min-height:50px;
+}
+.fusszeile a{
+text-decoration: none;
+color: #fff;
+display: inline-block;
+width: 100%;
+letter-spacing: 0.1em;
+padding:3% 0 3% 0;
+}
+.fusszeile a:hover{
+text-decoration:underline;
+}
+.caption{
+font-size:100%;
+}
+
+.ulLeistungen{
+font-size:95%;
+margin: 5% 0;
+}
+
+.ulLeistungen li{
+margin: 0 0 5% 0;
+}
+
+.youtube{
+border:0;
+display:block;
+margin:auto;
+max-width:100%;
+}
+
+.googlemap {
+border: 0;
+display: block;
+margin: auto;
+max-width: 100%;
+max-height: 50%;
+margin-bottom: 30px;
+}
+
+.datenschutz{
+width: 80%;
+min-height: 375px;
+}
+
+@media only screen and (max-width: 600px) {
+	#inhaltfloat{ 
+		margin: 2% 0% 0% 0%;
+		width: 100%;
+	}
+}
+
+/*Liquid Size*/
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.main{
+	margin:0%;
+	}
+	.fusszeile{
+	position:relative;
+    bottom:0px;
+	left:0px;
+	right:0px;
+	}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.main{
+	margin:0%;
+	}
+	.leftmargin{
+	margin-left:0%;
+	}
+	.fusszeile{
+	position:relative;
+    bottom:0px;
+	left:0px;
+	right:0px;
+	}
+}
+
+/* Tablets/Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.main{
+	margin:0%;
+	}
+	.leftmargin{
+	margin-left:0%;
+	}
+	.fusszeile{
+	position:relative;
+    bottom:0px;
+	left:0px;
+	right:0px;
+	}
+}
+/* Tablets/Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.main{
+	margin:0%;
+	}
+	.leftmargin{
+	margin-left:0%;
+	}
+	.fusszeile{
+	position:relative;
+    bottom:0px;
+	left:0px;
+	right:0px;
+	}
+}
+
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 801px) 
+and (max-width : 960px) {
+	body{
+	font-size: 100%;
+	}
+	.main{
+	margin:2% 2% 0 2%;
+	margin-right:10%;
+	}
+	.leftmargin{
+	margin-left:25.75%;
+	}
+	.vertikalesmenue h2{
+	font-size: 12pt;
+	}
+	.vertikalesmenue a{
+	padding: 5% 0% 5% 0%;
+	letter-spacing: 0.05em;
+	}
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 961px) 
+and (max-width : 1140px) {
+	body{
+	font-size: 100%;
+	}
+	.main{
+	margin:2.5% 2.5% 0 2.5%;
+	margin-right:20%;
+	}
+	.leftmargin{
+	margin-left:25.75%;
+	}
+	.vertikalesmenue h2{
+	font-size: 13pt;
+	}
+	.vertikalesmenue a{
+	padding: 4% 0% 4% 0%;
+	letter-spacing: 0.025em;
+	}
+}
+
+/* Desktops and Laptops ----------- */
+@media only screen
+and (min-width : 1141px)
+and (max-width : 1400px) {
+	body{
+	font-size: 100%;
+	}
+	.main{
+	margin:2.5% 2.5% 0 2.5%;
+	margin-right:25%;
+	}
+	.leftmargin{
+	margin-left:25.75%;
+	}
+	.vertikalesmenue h2{
+	font-size: 14pt;
+	}
+	.vertikalesmenue a{
+	padding: 5% 0% 5% 0%;
+	letter-spacing: 0.06em;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1401px) {
+	body{
+	font-size: 100%;
+	}
+	.main{
+	margin:2.5% 2.5% 0 2.5%;
+	margin-right:30%;
+	}
+	.leftmargin{
+	margin-left:25.75%;
+	}
+	.vertikalesmenue h2{
+	font-size: 15pt;
+	}
+	.vertikalesmenue a{
+	padding: 5% 0% 5% 0%;
+	letter-spacing: 0.1em;
+	}
+}

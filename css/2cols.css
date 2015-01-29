@@ -1,0 +1,30 @@
+/*  GRID mit 2 */
+
+	
+.span_2_of_2 {
+	width: 100%; 
+}
+
+.span_1_of_2 {
+	width: 47%; 
+}
+
+
+/*  Volle WIDTH bei weniger als 800 px */
+
+@media only screen and (max-width: 800px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%;
+	}
+}

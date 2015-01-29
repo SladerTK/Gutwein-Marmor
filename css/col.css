@@ -1,0 +1,38 @@
+/*  SECTION */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUP */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+
+/*  GRID  */
+
+.col {
+	display: block;
+	float:left;
+	margin: 0% 0 0% 3%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 800px) {
+	.col { 
+		margin: 0% 0 0% 0%;
+	}
+}

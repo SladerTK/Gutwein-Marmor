@@ -1,0 +1,143 @@
+
+.menu *{
+    margin: 0;
+    padding: 0;
+	border:0;
+}
+
+.menu{
+display:block;
+min-width:100%;
+background-color:#fff;
+}
+.menu ul a{
+background-color: #FFF;
+display: block;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 18px;
+color: #3a3e41;
+border-bottom:1px solid #3a3e41;
+text-align:center;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+
+.menu a:hover {
+
+	color: #444;
+}
+
+
+.menu ul{
+
+	list-style-type: none;
+	margin: auto;
+}
+
+.menu ul li {
+	float:left;
+	min-width:20%;
+}
+.menu ul a:hover {
+color: #FFF;
+background-color: rgba(58,62,65,.65);
+
+}
+
+.menu ul a:hover:first-child{
+border-left:3px solid white;
+}
+.menu ul a:hover:last-child{
+border-right:3px solid white;
+}
+#Logo{
+display:inline-block;
+
+width: 200px;
+height: 40px;
+background-image: url(../images/Logo-klein.png);
+background-size:cover;
+
+}
+#button{
+float:right;
+display:none;
+min-width: 40px;
+min-height: 40px;
+background-image: url(../images/menu-icon.png);
+background-size:cover;
+margin-right: 4px;
+}
+#mobile{
+display:block;
+background-color: #fff;
+margin-top: 8px;
+margin-bottom:8px;
+}
+
+
+@media only screen and (max-width : 700px) {
+#mobile{
+display:block;
+}
+#button{
+display:block;
+}
+#Logo{
+display: inline-block;
+}
+.menu{ 
+	display:none;
+	}
+.menu ul li{
+width:100%;
+min-width:100%;
+}	
+.menu ul a:hover:first-child{
+border-left:0;
+}
+.menu ul a:hover:last-child{
+border-right:0;
+}
+.menu ul a{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 801px) 
+and (max-width : 960px) {
+.menu ul a{
+font-size: 18px;
+}
+#mobile{
+display:none;
+}
+#button{
+display:none;
+}
+#Logo{
+display: none;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 961px)  {
+.menu ul a{
+font-size: 20px;
+}
+#mobile{
+display:none;
+}
+#button{
+display:none;
+}
+#Logo{
+display: none;
+}
+}

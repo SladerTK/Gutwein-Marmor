@@ -1,0 +1,188 @@
+body{
+background: #fff;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.header{display:none;}
+	.mobilbanner{display:block;}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.header{display:none;}
+	.mobilbanner{display:block;}
+}
+
+/* Tablets/Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.header{display:none;}
+	.mobilbanner{display:block;}
+}
+/* Tablets/Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.header{display:none;}
+	.mobilbanner{display:block;}
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 801px) 
+and (max-width : 960px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../referenzen/backgroundsmall.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.header{display:block;}
+	.mobilbanner{display:none;}
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 961px) 
+and (max-width : 1140px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../referenzen/backgroundmiddle.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.header{display:block;}
+	.mobilbanner{display:none;}
+}
+
+/* Desktops and Laptops ----------- */
+@media only screen
+and (min-width : 1141px)
+and (max-width : 1400px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../referenzen/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.header{display:block;}
+	.mobilbanner{display:none;}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1401px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../referenzen/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.header{display:block;}
+	.mobilbanner{display:none;}
+}
+@media only screen
+and (min-width : 1601px) {
+	body{
+	font-size: 110%;
+	background: #fff url(../referenzen/backgroundbig.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+}
+
+.refhead a:link,
+.refhead a:visited{
+color : rgba(58,62,65,1);
+}
+#container {
+	width:100%;
+}
+dl {
+margin:0;
+padding: 0;
+}
+dt {
+	font-weight:bold;
+	background: #3a3e41;
+	color:#fff;
+	float:left;
+	width:98%;
+	padding:2% 0 2% 2%;
+	margin-top:3%;
+	cursor:pointer;
+	border-bottom:1px solid #fff;
+}
+
+dd {
+	color:#fff;
+	display:none;
+	background:#3a3e41;
+	margin:0 0 3%;
+	float:left;
+	width:96%;
+	padding:2% 2% 3%;
+}
+
+.button1 {
+	float:right;
+	display:block;
+	height:20px;
+	width:20px;
+	margin-right:2%;
+	text-indent:-9999px;
+}
+.bilder{
+border:1px solid #fff;
+min-width:32%;
+max-width:32%;
+float: left;
+}
+.bilder1{
+min-width:80%;
+max-width:80%;
+}
+
+
+.closed { background:url(../images/button_referenzen1.png) left no-repeat; }
+
+.open { background:url(../images/button_referenzen1.png) right no-repeat; }

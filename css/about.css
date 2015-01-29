@@ -1,0 +1,176 @@
+body{
+background: #fff;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	/* .vertikalesmenue{visibility="gone";} */
+	
+	.header{display:none;}
+	/* .header{visibility="gone";} */
+	
+	.mobilbanner{display:block;}
+	/* .mobilbanner{visibility="visible";} */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	/* .vertikalesmenue{visibility="gone";} */
+	
+	.header{display:none;}
+	/* .header{visibility="gone";} */
+	
+	.mobilbanner{display:block;}
+	/* .mobilbanner{visibility="visible";} */
+}
+
+/* Tablets/Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	/* .vertikalesmenue{visibility="gone";} */
+	
+	.header{display:none;}
+	/* .header{visibility="gone";} */
+	
+	.mobilbanner{display:block;}
+	/* .mobilbanner{visibility="visible";} */
+}
+/* Tablets/Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	/* .vertikalesmenue{visibility="gone";} */
+	
+	.header{display:none;}
+	/* .header{visibility="gone";} */
+	
+	.mobilbanner{display:block;}
+	/* .mobilbanner{visibility="visible";} */
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 801px) 
+and (max-width : 960px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../about/backgroundsmall.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	}
+	.vertikalesmenue{display:block;}
+	/* .vertikalesmenue{visibility="visible";} */
+	
+	.header{display:block;}
+	/* .header{visibility="visible";} */
+	
+	.mobilbanner{display:none;}
+	/* .mobilbanner{visibility="gone";} */
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 961px) 
+and (max-width : 1140px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../about/backgroundmiddle.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	}
+	.vertikalesmenue{display:block;}
+	/* .vertikalesmenue{visibility="visible";} */
+	
+	.header{display:block;}
+	/* .header{visibility="visible";} */
+	
+	.mobilbanner{display:none;}
+	/* .mobilbanner{visibility="gone";} */
+}
+
+/* Desktops and Laptops ----------- */
+@media only screen
+and (min-width : 1141px)
+and (max-width : 1400px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../about/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	}
+	.vertikalesmenue{display:block;}
+	/* .vertikalesmenue{visibility="visible";} */
+	
+	.header{display:block;}
+	/* .header{visibility="visible";} */
+	
+	.mobilbanner{display:none;}
+	/* .mobilbanner{visibility="gone";} */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1401px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../about/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right;
+	}
+	.vertikalesmenue{display:block;}
+	/* .vertikalesmenue{visibility="visible";} */
+	
+	.header{display:block;}
+	/* .header{visibility="visible";} */
+	
+	.mobilbanner{display:none;}
+	/* .mobilbanner{visibility="gone";} */
+}
+@media only screen
+and (min-width : 1601px) {
+	body{
+	font-size: 110%;
+	background: #fff url(../about/backgroundbig.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right;
+	}
+}

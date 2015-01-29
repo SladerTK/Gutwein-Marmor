@@ -1,0 +1,132 @@
+body{
+background: #fff;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.slideshow{display:block;}
+	.header{display:none;}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (max-width : 700px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.slideshow{display:block;}
+	.header{display:none;}
+}
+
+/* Tablets/Smartphones (portrait) ----------- */
+@media only screen
+and (orientation: portrait)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.slideshow{display:block;}
+	.header{display:none;}
+}
+/* Tablets/Smartphones (landscape) ----------- */
+@media only screen
+and (orientation: landscape)
+and (min-width: 701px)
+and (max-width : 800px) {
+	body{
+	font-size: 100%;
+	background: #fff;
+	}
+	.vertikalesmenue{display:none;}
+	.slideshow{display:block;}
+	.header{display:none;}
+}
+
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 801px) 
+and (max-width : 960px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../images/backgroundsmall.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.slideshow{display:none;}
+	.header{display:block;}
+}
+
+/* Tablets/Netbooks/Laptops (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 961px) 
+and (max-width : 1140px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../images/backgroundmiddle.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.slideshow{display:none;}
+	.header{display:block;}
+}
+
+/* Desktops and Laptops ----------- */
+@media only screen 
+and (min-width : 1141px)
+and (max-width : 1400px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../images/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.slideshow{display:none;}
+	.header{display:block;}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1401px) {
+	body{
+	font-size: 100%;
+	background: #fff url(../images/backgroundlarge.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.vertikalesmenue{display:block;}
+	.slideshow{display:none;}
+	.header{display:block;}
+}
+@media only screen
+and (min-width : 1601px) {
+	body{
+	font-size: 110%;
+	background: #fff url(../images/backgroundbig.JPG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+}
